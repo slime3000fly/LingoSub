@@ -1,0 +1,13 @@
+C:\Users\rumca\source\repos\LingoSub\LingoSub\bin\Debug\LingoSub.exe.config
+C:\Users\rumca\source\repos\LingoSub\LingoSub\bin\Debug\LingoSub.exe
+C:\Users\rumca\source\repos\LingoSub\LingoSub\bin\Debug\LingoSub.pdb
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.csproj.AssemblyReference.cache
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.csproj.SuggestedBindingRedirects.cache
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.Form1.resources
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.Properties.Resources.resources
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.csproj.GenerateResource.cache
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.csproj.CoreCompileInputs.cache
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.exe
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.pdb
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.Form2.resources
+C:\Users\rumca\source\repos\LingoSub\LingoSub\obj\Debug\LingoSub.Form3.resources

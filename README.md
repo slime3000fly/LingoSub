@@ -1,5 +1,4 @@
-# LingoSub to aplikacja oparta narazie na tłumaczu deeply  
-# do tłumeczenia plików srt
+# LingoSub to aplikacja oparta narazie na tłumaczu deeply \n do tłumeczenia plików srt
 
 # Instrukcja
 

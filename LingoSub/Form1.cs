@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IWshRuntimeLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,9 @@ namespace LingoSub
         public Form1()
         {
             InitializeComponent();
+
+
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

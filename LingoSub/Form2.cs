@@ -18,27 +18,9 @@ namespace LingoSub
         public Form2()
         {
             InitializeComponent();
-            if (File.Exists(filepath + "\\settings.txt"))
-            {
-                StreamReader streamReader = new StreamReader(filepath + "\\settings.txt");
-                try
-                {
-                    comboBox1.Text = streamReader.ReadLine().ToString();
-                    textBox1.Text = streamReader.ReadLine().ToString();
-                    streamReader.Close();
-                }
-                catch (Exception ee)
-                {
-                    Console.WriteLine("Exception: " + ee.Message);
-                }
-            }
-            else
-            {
-                string path = filepath + "\\settings.txt";
-                using (File.CreateText(path)) ;
-                
-            }
-            
+                      
+            comboBox1.Text = Properties.Settings.Default.Language;
+            textBox1.Text = Properties.Settings.Default.APIKey;
         }
 
         private void powrot_Click(object sender, EventArgs e)
@@ -50,17 +32,10 @@ namespace LingoSub
 
         private void button3_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(filepath + "\\settings.txt");
-            try
-            {
-                sw.WriteLine(comboBox1.Text.ToString());
-                sw.WriteLine(textBox1.Text.ToString());
-                sw.Close();
-            }
-            catch (Exception ee)
-            {
-                Console.WriteLine("Exception: " + ee.Message);
-            }
+            
+            Properties.Settings.Default.Language = comboBox1.Text;
+            Properties.Settings.Default.APIKey = textBox1.Text;
+            Properties.Settings.Default.Save();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

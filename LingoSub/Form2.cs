@@ -21,8 +21,6 @@ namespace LingoSub
                       
             comboBox1.Text = Properties.Settings.Default.Language;
             textBox1.Text = Properties.Settings.Default.APIKey;
-
-
         }
 
         private void powrot_Click(object sender, EventArgs e)
